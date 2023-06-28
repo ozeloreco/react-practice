@@ -1,38 +1,106 @@
-.App {
+
+ .project{ 
+  background-color: white;
+  color: navy;
+  text-decoration: none;
+  border: 8px solid navy;
+  border-radius: 2rem 0;
+  font-size: 2rem;
+  width: 80%;
   text-align: center;
+padding: 1rem;
+margin: 1rem;
+font-weight: bolder;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.project:hover{
+background-color: navy;
+color: white;
+transform: scale(1.05);
+}
+.todo-header{
+  gap: 1rem;
+}
+.todo-header input{
+  width: 32%;
+}
+.todo-header button{
+  width: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+body{
+  font-family: monospace;
+}
+.navbar{
+  background-color: black;
+}
+.carousel-item{
+  height: 35rem;
+}
+.services{
+  background-image: url(https://previews.123rf.com/images/kantver/kantver1605/kantver160500308/57296808-photo-black-matte-luxury-generic-design-private-jet-flying-in-sky-under-the-earth-surface-grand.jpg);
+  height: 40rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 3rem;
+  padding-top: 10rem;
+  background-attachment: fixed;
+}
+.service{
+  text-shadow: 1px 1px 8px white;
+}
+.card-img-top{
+  height: 13rem;
+}
+.card{
+  margin: 1rem;
+}
+.registration-form{
+  max-width: 450px;
+  margin: 5rem auto;
+}
+@media (max-width: 768px){
+.todo-header{
+  flex-direction: column;}
+
+.todo-header input{
+  width: 100%;
+}
+.todo-header button{
+  width: 100%;
+}
+}
+.card{
+  width: 25%;
+  height: 25%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.js-flix{
+  background-color: black;
+  color: tomato;
+  text-align: center;
+  font-size: 3.4rem;
+  padding: 20px;
+}
+.js-input-flix{
+  margin: 20px 20px 10px 100px;
+  padding: 20px 20px 15px 15px;
+  width: 65%;
+  border-width: 1px;
+  border-radius: 15px;
+  font-size: 1.8rem;
+}
+.js-button-flix{
+  background-color: red;
   color: white;
-}
+  width: 15%;
+  margin: 10px 10px 10px 10px;
+  padding: 20px 20px 15px 15px;
+  border: none;
+  border-radius: 15px;
+  font-size: 1.6rem;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

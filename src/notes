@@ -1,0 +1,12 @@
+Creating a Todo List 
+* Add an onChange event to the input. 
+* Create  useStates to store the task to be added and the array of tasks.
+* Add an onClick to the button.
+*Write a function to handle the button click event.
+* Add each task to the array of tasks after the button is clicked.
+* Map through the tasks and display them on the browser.
+
+API - Application programming interface => Any software intermediary that allows two applications to communicate with each other.
+useEffect to get information from somewhere
+useState to store information 
+useMap to display information on a website 
